@@ -1,35 +1,43 @@
-Titanic Survival Prediction Model
+# Titanic Survival Prediction Model
+
 This project aims to build a predictive model to determine the survival probability of passengers aboard the Titanic using various machine learning algorithms. The algorithms explored include Random Forest, Support Vector Machine (SVM), Logistic Regression, and K-Nearest Neighbors (KNN). Hyperparameter tuning is performed using grid search to optimize model performance.
 
-Process Overview:
-Data Preprocessing:
+## Process Overview:
 
-Data cleaning and handling missing values.
-Feature engineering and transformation.
-Data Splitting:
+1. **Data Preprocessing:** 
+   - Data cleaning and handling missing values.
+   - Feature engineering and transformation.
+   
+2. **Data Splitting:** 
+   - Division of data into training and testing sets.
 
-Division of data into training and testing sets.
-Model Training:
+3. **Model Training:**
+   - Utilization of Random Forest, SVM, Logistic Regression, and KNN algorithms.
+   - Hyperparameter tuning using grid search.
 
-Utilization of Random Forest, SVM, Logistic Regression, and KNN algorithms.
-Hyperparameter tuning using grid search.
-Model Evaluation:
+4. **Model Evaluation:**
+   - Assessment of model performance using metrics such as accuracy, precision, recall, and F1-score.
 
-Assessment of model performance using metrics such as accuracy, precision, recall, and F1-score.
-Model Selection:
+5. **Model Selection:**
+   - Choosing the best-performing model based on evaluation results.
 
-Choosing the best-performing model based on evaluation results.
-Deployment:
+6. **Deployment:**
+   - Deployment of the selected model for making predictions on new data.
 
-Deployment of the selected model for making predictions on new data.
-Getting Started:
+## Getting Started:
+
 To run the project locally:
 
-Clone this repository.
-Install the necessary dependencies.
-Run the Python script for model training and evaluation.
-Dependencies:
-Python 3.x
-scikit-learn
-pandas
-numpy
+1. Clone this repository.
+2. Install the necessary dependencies.
+3. Run the Python script for model training and evaluation.
+
+## Dependencies:
+
+- Python 3.x
+- scikit-learn
+- pandas
+- numpy
+
+## Usage:
+
