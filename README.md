@@ -41,3 +41,6 @@ To run the project locally:
 
 ## Usage:
 
+python train_model.py
+
+Feel free to contribute by submitting pull requests or opening issues.
